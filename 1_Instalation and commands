@@ -1,7 +1,6 @@
 ===========================================================================================================
                                         INSTALAÇÃO REQUESTS NO PYTHON
 ===========================================================================================================    
-
 NO LINUX:
   $ pip install requests
   
@@ -11,7 +10,6 @@ NO WINDOWS:
 ===========================================================================================================
                                       PRIMEIRA SOLICITAÇÃO COM REQUESTS
 ===========================================================================================================
-
   Cria-se um um arquivo (por exemplo: script.py) e insere as seguintes linhas de códigos:
   
                                    1. import requests
@@ -40,7 +38,6 @@ o código de status da comunicação com a URL.
 ===========================================================================================================
                                           REALIZAÇÃO DE TESTES
 ===========================================================================================================
-  
   Esse método é capaz de processar e interpetar os dados que estão sendo enviados e recebidos na solicitação/resposta.
   É uma forma de indetificar se a resposta de comunicação com o servidor foi True (verdadeira) tendo resultado como saída o 
   parâmetro informado.
