@@ -1,9 +1,9 @@
 INTRODUÇÃO:
 
   A biblioteca Requests é responsável por realizar uma consulta a uma página web fazendo uma comunicação de entrada e saída dos dados. Requests é uma biblioteca Python cujo 
-  objeto é tornar mais simples e mais amigavel as leituras HTML. De modo geral, toda vez que uma página web é acessada, o cliente envia solicitações para o servidor, e o servidor 
-  responde essas solicitações enviando as informações necessárias para renderizar a página, mas para a biblioteca Requests, o que será recebido serão apenas informações acerca 
-  do HTML. 
+  objeto é tornar mais simples e mais amigavel as leituras HTML. De modo geral, toda vez que uma página web é acessada, o cliente envia solicitações para o servidor, 
+  e o servidor responde essas solicitações enviando as informações necessárias para renderizar a página, mas para a biblioteca Requests, o que será recebido 
+  serão apenas informações acerca do HTML. 
 
 FUNCIONAMENTO:
 
