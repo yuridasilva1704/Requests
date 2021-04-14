@@ -14,10 +14,10 @@ NO WINDOWS:
 
   Cria-se um um arquivo (por exemplo: script.py) e insere as seguintes linhas de códigos:
   
-                               1. import requests
-                               2. res = requests.get('https://scotch.io')
-                               3. print(res) # Demonstra o status e o código
-                               4. print(res.status_code) # Apenas demonstra o código de resposta
+                                   1. import requests
+                                   2. res = requests.get('https://scotch.io')
+                                   3. print(res) # Demonstra o status e o código
+                                   4. print(res.status_code) # Apenas demonstra o código de resposta
 
   Este método envia uma solicitação get para o Scotch.io. Solicitação feita para visualizar a página.
 É recebido apenas o HTML bruto como base de respostas. Ao final, tem-se a saída do resultado como
@@ -45,9 +45,19 @@ o código de status da comunicação com a URL.
   É uma forma de indetificar se a resposta de comunicação com o servidor foi True (verdadeira) tendo resultado como saída o 
   parâmetro informado.
 
-                                1.  if res:
-                                2.      print("Response OK")
-                                3.  else:
-                                4.      print("Response Failed")
-                                
+                                    1.  if res:
+                                    2.      print("Response OK")
+                                    3.  else:
+                                    4.      print("Response Failed")
+                               
+===========================================================================================================
+                                               CABEÇALHOS
+===========================================================================================================
+  É possível obter resposta dos cabeçalhos. Tratam-se de como o servidor consegue processar
+  e interpretar os dados que estão sendo enviados e recebidos na solicitação/resposta. 
+  
+                                          print(res.headers)
+  
+                               
+                                  
   
