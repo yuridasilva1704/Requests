@@ -10,4 +10,4 @@ MÉTODOS
   As solicitações enviadas pelo cliente ao servidor são chamados de métodos de solicitações (ou consulta). Os métodos de consulta são classificados por três, são eles:
   
 GET(): Apenas para leituras de dados, sem alterações;
-POST() e PUT(): São utiliados para modificar dados no servidor.
+POST() e PUT(): São utiliados para modificar dados no servidor;
