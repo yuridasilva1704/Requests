@@ -50,11 +50,18 @@ o código de status da comunicação com a URL.
 ===========================================================================================================
                                                CABEÇALHOS
 ===========================================================================================================
-  É possível obter resposta dos cabeçalhos. Tratam-se de como o servidor consegue processar
+  É possível obter resposta dos cabeçalhos. Tratam-se de como o servidor e o cliente conseguem processar
   e interpretar os dados que estão sendo enviados e recebidos na solicitação/resposta. 
   
                                           print(res.headers)
+                                          
+  Normalmente, nos cabeçalhos, obtem-se informações sobre o formato dos dados, se são HTML, JSON, PDF, Texto, etc.
   
-                               
+===========================================================================================================
+                                           TEXTO DE RESPOSTA
+===========================================================================================================
+  
+  Apresenta tudo que a página HTML solicitou para compilar o site. A página não será processada, mas apresentará informações
+  a respeito do site.
                                   
   
