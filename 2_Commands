@@ -1,0 +1,56 @@
+===========================================================================================================
+                                      PRIMEIRA SOLICITAÇÃO COM REQUESTS
+===========================================================================================================
+  Cria-se um um arquivo (por exemplo: script.py) e insere as seguintes linhas de códigos:
+  
+                                   1. import requests
+                                   2. res = requests.get('https://scotch.io')
+                                   3. print(res) # Demonstra o status e o código
+                                   4. print(res.status_code) # Apenas demonstra o código de resposta
+
+  Este método envia uma solicitação get para o Scotch.io. Solicitação feita para visualizar a página.
+É recebido apenas o HTML bruto como base de respostas. Ao final, tem-se a saída do resultado como
+o código de status da comunicação com a URL. 
+  
+  Os códigos HTTP variam de 1XX a 5XX, os mais comuns são: 200, 404 e 500.
+  
+  Alguns códigos e seus significados:
+  
+1XX - Informação
+2XX - Sucesso
+3XX - Redirecionar
+4XX - Erro de cliente (você cometeu um erro)
+5XX - Erro de servidor (eles cometeram um erro)
+
+  Geralmente, o que está sendo buscado para realizar as solicitações são próximos do código 200.
+  Os códigos 4XX e 5XX são reconhecidos como erro pelos Requests, desta forma, se estes códigos foram retornados
+  eles serão tratados como False.
+
+===========================================================================================================
+                                          REALIZAÇÃO DE TESTES
+===========================================================================================================
+  Esse método é capaz de processar e interpetar os dados que estão sendo enviados e recebidos na solicitação/resposta.
+  É uma forma de indetificar se a resposta de comunicação com o servidor foi True (verdadeira) tendo resultado como saída o 
+  parâmetro informado.
+
+                                    1.  if res:
+                                    2.      print("Response OK")
+                                    3.  else:
+                                    4.      print("Response Failed")
+                               
+===========================================================================================================
+                                               CABEÇALHOS
+===========================================================================================================
+  É possível obter resposta dos cabeçalhos. Tratam-se de como o servidor e o cliente conseguem processar
+  e interpretar os dados que estão sendo enviados e recebidos na solicitação/resposta. 
+  
+                                          print(res.headers)
+                                          
+  Normalmente, nos cabeçalhos, obtem-se informações sobre o formato dos dados, se são HTML, JSON, PDF, Texto, etc.
+  
+===========================================================================================================
+                                           TEXTO DE RESPOSTA
+===========================================================================================================
+  
+  Apresenta tudo que a página HTML solicitou para compilar o site. A página não será processada, mas apresentará informações
+  a respeito do site.
