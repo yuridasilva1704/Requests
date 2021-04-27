@@ -1,0 +1,8 @@
+===========================================================================================================
+                                        INSTALAÇÃO REQUESTS NO PYTHON
+===========================================================================================================    
+NO LINUX:
+  $ pip install requests
+  
+NO WINDOWS:
+  python -m pip install requests or py -m pip install requests
