@@ -7,7 +7,7 @@ INTRODUÇÃO:
 
 FUNCIONAMENTO:
 
-  Ela (o cliente, um navegador por exemplo ou um script Python usando as Requests) envia solicitações de acesso ao servidor através de um  URL 
+  O cliente, um navegador por exemplo ou um script Python usando as Requests, envia solicitações de acesso ao servidor através de um  URL 
   (Uniform Resource Locator - Localizador Uniforme de Recursos), seja para uma página web, por exemplo, e este servidor localizado na URL irá ler os dados, decidir
   o que irá fazer com os dados e responder a essas solicitações com todos os dados necessários para o cliente. E por fim, o cliente decide o que fazer com os dados recebidos.
   
